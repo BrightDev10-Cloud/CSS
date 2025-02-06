@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Lato", serif;;
+}
+
+.header{
+    width: 80vw;
+    height: 60px;
+    margin: 0 auto;
+    align-content: center;
+    margin-top: 20px;
+}
+.btn {
+    height: auto;
+    font-family: monospace;
+    font-size: 1.2em;
+    color: black;
+    border-radius: 10000px;
+    border: .5px solid rgba(0,0,0,0.555);
+    background-color: rgb(253, 155, 43);
+    padding: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+.section_1{
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 322px;
+    
+}
+.content_1{
+    width: 800px;
+    margin: 0 auto;
+    padding: 5em 1em;
+    
+}
+.content_1 span{
+    color: green;
+}
+.content_1 h1, p {
+    padding-top: 1em;
+
+}
+.section_2{
+    background-color: #666666;
+    width: 100vw;
+    height: 450px;
+    display: grid;
+    place-content: center;
+}
+.content_2{
+    width: 800px;
+    margin: 0 auto;
+    border-bottom: 8px solid rgba(0, 0, 0, 0.254);
+    background-color: #ffffff;
+}
+.content_wrapper{
+    background-color: white;
+    width: 800px;
+    height: 312px;
+    margin-top: 2em;
+    
+}
+.label{
+    width: 70%;
+    height: 60px;
+    background-color: #FFBF00;
+    align-items: center;
+    padding: 15px 35px;
+    position: relative;
+    top: 1em;
+    left: -1em;
+    border-bottom: 8px solid rgba(0, 0, 0, 0.254);
+}
+.main_content{
+    max-width: 752px;
+    padding: 1.5em 2em
+
+}
+   /* responsiveness */
+   @media only screen and (max-width: 600px) {
+    .section_1{
+        width: 100vw;
+        height: 322px;
+        
+    }
+    .content_1{
+        width: 400px;
+        margin: 0 auto;
+        padding: 3em 1em;
+        
+    }
+    .section_2{
+        background-color: #666666;
+        width: 100vw;
+        height: 250px;
+        display: grid;
+        place-content: center;
+    }
+    .content_2{
+        width: 390px;
+        margin: 0 auto;
+        border-bottom: 8px solid rgba(0, 0, 0, 0.254);
+        background-color: #ffffff;
+        height: 50vh;
+    }
+    .content_wrapper{
+        background-color: white;
+        width: 390px;
+        height: 312px;
+        margin-top: 2em;
+        
+    }
+    .label{
+        width: 379px;
+        height: 60px;
+        background-color: #FFBF00;
+        align-items: center;
+        padding: 15px 35px;
+        position: relative;
+        top: 1em;
+        left: -1em;
+        border-bottom: 8px solid rgba(0, 0, 0, 0.254);
+        font-size: .9em;
+    }
+   }

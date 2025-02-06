@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 80vw;
+    height: 60px;
+    margin: 0 auto;
+    align-content: center;
+    margin-top: 20px;
+}
+.btn {
+    height: auto;
+    font-family: monospace;
+    font-size: 1.2em;
+    color: black;
+    border-radius: 10000px;
+    border: .5px solid rgba(0,0,0,0.555);
+    background-color: rgb(253, 155, 43);
+    padding: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  .main_section{
+    width: 100vw;
+    height: 100vh;
+    background-color: #a7a8cd;
+    padding-top: 80px;
+    border: 20px solid white;
+  }
+  .wrapper{
+    width: 40%;
+    height: auto;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+  .label{
+    background-color: #fdf1b4;
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+    padding: .8em 1.5em;
+    font-family: "lato" serif;
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    border-radius: 5px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+  .card{
+    width: 100%;
+    height: 400px;
+  }
+  .card_img{
+    width: 100%;
+    height: 80%;
+    position: relative;
+  }
+  .card_img img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .card_text{
+    width: 100%;
+    height: 250px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 2em 2em;
+  }
+  .card_text span{
+    font-size: .8em;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.472);
+  }
+  .card_text h1{
+    padding-bottom: .8em;
+  }
+  .card_text p{
+    font-size: 1.5em;
+  }
+
+  /* responsiveness */
+  @media only screen and (max-width: 600px) {
+    .wrapper{
+        width: 90%;
+        height: auto;
+        background-color: white;
+        margin: 0 auto;
+        border-radius: 5px;
+      }
+      .card_text p{
+        font-size: 1.2em;
+      }
+
+   }

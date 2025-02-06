@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 5</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+    <section class="main">
+        <div class="container">
+            <header class="header">
+                <div class="logo">
+                    <img src="/Assets/wppusher-logo copy.png" alt="wppusher-logo" width="200px" height="39px">
+                </div>
+                <nav class="main_nav">
+                    <ul>
+                        <li><a href="">Download</a></li>
+                        <li><a href="">Learn more</a></li>
+                        <li><a href="">Pricing</a></li>
+                        <li><a href="">Help</a></li>
+                    </ul>
+                    <div><button class="btn">Account</button></div>
+                </nav>
+                <div class="mobile_navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M61.1 224C45 224 32 211 32 194.9c0-1.9 .2-3.7 .6-5.6C37.9 168.3 78.8 32 256 32s218.1 136.3 223.4 157.3c.5 1.9 .6 3.7 .6 5.6c0 16.1-13 29.1-29.1 29.1L61.1 224zM144 128a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm240 16a16 16 0 1 0 0-32 16 16 0 1 0 0 32zM272 96a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zM16 304c0-26.5 21.5-48 48-48l384 0c26.5 0 48 21.5 48 48s-21.5 48-48 48L64 352c-26.5 0-48-21.5-48-48zm16 96c0-8.8 7.2-16 16-16l416 0c8.8 0 16 7.2 16 16l0 16c0 35.3-28.7 64-64 64L96 480c-35.3 0-64-28.7-64-64l0-16z" width="30px" height="30px"/></svg>
+                </div>
+                </header>
+                <button class="back_btn" onclick="history.back()">Back</button>
+                <div class="checkout_card">
+                <div class="form">
+                    <form action="">
+                        <div class="head">
+                            <h2>Checkout</h2>
+                        </div>
+                        <div class="form_1">
+                            <div class="title">
+                                <div class="title_tag">1</div>
+                                <h3>Your Basic Information</h3>
+                            </div>
+                            <div class="input_row">
+                               <div class="center">
+                                <div class="input_wrapper" aria-label="first_name">
+                                    <label for="first_name">First Name</label><br />
+                                    <input type="text" id="first_name" placeholder="Jane" />
+                                  </div>
+                                  <div class="input_wrapper" aria-label="last_name">
+                                    <label for="last_name">Last Name</label><br />
+                                    <input type="text" id="last_name" placeholder="Doe" />
+                                  </div>
+                               </div>
+                              </div>
+                              <div class="input_row">
+                                <div class="center">
+                                 <div class="input_wrapper" aria-label="first_name">
+                                     <label for="email">Email</label><br />
+                                     <input type="email" id="email" placeholder="janedoe@example.com" />
+                                   </div>
+                                </div>
+                               </div>
+                        </div>
+                        <div class="form_1">
+                            <div class="title">
+                                <div class="title_tag">2</div>
+                                <h3>Your Payment Information</h3>
+                            </div>
+                            <div class="input_row_credit_card">
+                               <div class="center">
+                                <div class="input_wrapper_credit_card" aria-label="credit_card">
+                                    <label for="credit_card">Credit card</label><br />
+                                    <input type="card_number" id="card_number" placeholder="Card Number" />
+                                  </div>
+                               </div>
+                              </div>
+                        </div>
+                        <div class="button_wrapper">
+                            <button>Buy WP Pusher</button>
+                            <div class="help">
+                                <img src="/Assets/Help_icon.png" alt="">
+                                <p>Need any help? <span>Don’t hesitate to contact support!</span></p>
+                            </div>
+                            <div class="stripe">
+                                <img src="/Assets/powered_by_stripe.png" alt="">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="info">
+                    <div class="info_container">
+                        <div class="top_half">
+                            <div class="info_header">
+                                <h3>Freelancer</h3>
+                                <div class="price">
+                                    <p><sup>$</sup> <span class="big_price">99</span> /year</p>
+                                    <p class="italic">Automatically renews <br> after 1 year</p>
+                                </div>
+                            </div>
+                            <div class="benefits">
+                                <div class="benefit">
+                                    <img src="/Assets/Check_icon.png" alt="check_icon" height="20px" width="20px">
+                                    <p>Use on 5 client sites</p>
+                                </div>
+                                <div class="benefit">
+                                    <img src="/Assets/Check_icon.png" alt="check_icon" height="20px" width="20px">
+                                    <p>Private repositories</p>
+                                </div>
+                                <div class="benefit">
+                                    <img src="/Assets/Check_icon.png" alt="check_icon" height="20px" width="20px">
+                                    <p>Email support</p>
+                                </div>
+                            </div>
+                            <div class="switch_plan">
+                                <p class="need_client">Need <Span>20</Span> client sites?</p>
+                                <div class="plan">
+                                    <p class="bold_text">Switch to the Agency plan.</p>
+                                    <div class="strike_line"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom_half">
+                            <div class="text_content">
+                                <p>FTP is horrible to deal with. <span class="bold_text">WP Pusher</span> solves that issue, and the customer support is awesome!</p>
+                            </div>
+                            <div class="user_avatar">
+                                <img src="/Assets/Bitmap.png" alt="user_avatar" height="40px" width="40px">
+                                <p>Kirk Beard</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">© 2018 WP Pusher IVS  ·  <span>Terms of Service</span></p>
+        </div>
+    </section>
+    
+</body>
+</html>

@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "montserrat", sans-serif;
+}
+.header{
+    width: 80vw;
+    height: 60px;
+    margin: 0 auto;
+    align-content: center;
+    margin-top: 20px;
+}
+.btn {
+    height: auto;
+    font-family: monospace;
+    font-size: 1.2em;
+    color: black;
+    border-radius: 10000px;
+    border: .5px solid rgba(0,0,0,0.555);
+    background-color: rgb(253, 155, 43);
+    padding: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  .main_section{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f7fdfc;
+    align-content: center;
+  }
+  .sign_up{
+    width: 80%;
+    height: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+  }
+  .left_side{
+    width: 50%;
+    height: 90%;
+    display: grid;
+    place-content: center;
+    padding-left: 50px;
+  }
+  .center{
+    margin: 0 auto;
+  }
+  .center h1{
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  .center p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    padding-top: 20px;
+    max-width: 460px;
+    color: #737373;
+  }
+  .right_side{
+    width: 50%;
+    height: 679px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 50px 0px #0408131A;
+    border-radius: 5px;
+    display: grid;
+    place-content: center;
+  }
+   /* responsiveness */
+   @media only screen and (max-width: 600px) {
+    .sign_up{
+        width: 80%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 1em;
+      }
+      .left_side{
+        width: 100%;
+        height: 100vh; 
+      }
+      .center{
+        width: 1000px;
+        width: 100%;
+      }
+      .right_side{
+        margin-top: 2em;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        width: 327px;
+        height: 900px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 4px 50px 0px #0408131A;
+        border-radius: 6px;
+      }
+
+
+   }

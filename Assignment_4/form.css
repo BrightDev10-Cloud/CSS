@@ -1,0 +1,135 @@
+.center_2{
+    width: 87%;
+    height: auto;
+    margin: 0 auto;
+}
+.title_paragraph{
+    display: inline block;
+}
+.title_paragraph_mobile{
+    display: none;
+}
+.form_inputs {
+    width: fit-content;
+}
+.input_row {
+display: flex;
+flex-direction: row;
+gap: 24px;
+margin-bottom: 20px;
+}
+.form input{
+width: 238px;
+height: 48px;
+padding: 5px;
+border-radius: 5px;
+border: .5px solid rgba(0, 0, 0, 0.141);
+transition: 0.5s;
+}
+.form input :focus{
+border: 3px solid #2EC4B6 ;
+}
+.form select {
+width: 238px;
+height: 48px;
+padding: 5px;
+border-radius: 5px;
+border: .5px solid rgba(0, 0, 0, 0.141);
+}
+.form .long_input {
+width: 500px;
+height: 48px;
+padding: 5px;
+border-radius: 5px;
+border: .5px solid rgba(0, 0, 0, 0.141);
+}
+.right_side span{
+color: #2EC4B6;
+cursor: pointer;
+}
+.Sign_up_btn{
+width: 500px;
+height: 48px;
+border-radius: 5px;
+background-color: #2EC4B6;
+color: white;
+border: none;
+font-size: 1.2em;
+}
+.footnote{
+font-size: 14px;
+font-weight: 400;
+line-height: 25px;
+text-align: center;
+padding-top: 1em;
+}
+.footnote_mobile{
+    display: none;
+}
+
+ /* responsiveness */
+ @media only screen and (max-width: 600px) {
+    .center_2{
+        width: fit-content;
+        height: auto;
+        margin: 0 auto;
+    }
+    .title_paragraph{
+        display: none;
+    }
+    .title_paragraph_mobile{
+        display: inline;
+    }
+    .input_row {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 20px;
+        }
+    .form_inputs {
+    width: 48%;
+    }
+    .form input{
+    width: 295px;
+    height: 48px;
+    padding: 5px;
+    border-radius: 5px;
+    border: .5px solid rgba(0,0,0,0.555)
+    }
+    .form select {
+    width: 295px;
+    height: 48px;
+    padding: 5px;
+    border-radius: 5px;
+    border: .5px solid rgba(0,0,0,0.555)
+    }
+    .form .long_input {
+    width: 295px;
+    height: 48px;
+    padding: 5px;
+    border-radius: 5px;
+    border: .5px solid rgba(0,0,0,0.555)
+    }
+    .right_side span{
+    color: #2EC4B6;
+    cursor: pointer;
+    }
+    .Sign_up_btn{
+    width: 295px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: #2EC4B6;
+    color: white;
+    border: none;
+    font-size: 1.2em;
+    }
+    .footnote{
+        font-size: 14px;
+       display: none;
+    }
+    .footnote_mobile Span{
+        display: inline-block;
+        color: #2EC4B6;
+        cursor: pointer;
+    }
+ }
